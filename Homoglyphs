@@ -1,0 +1,109 @@
+Zero-Width Characters: Invisibly fingerprinting text: Manually retype to avoid invisible characters and homoglyphs. https://github.com/vedhavyas/zwfp
+
+use a tool that strips non-whitelisted characters.
+
+https://en.wikipedia.org/wiki/IDN_homograph_attack
+
+General Punctuation: is a Unicode block containing punctuation, spacing, and formatting characters.
+Range: U+2000..U+206F (112 code points)
+
+space without width (invisible characters):
+U+200B
+U+200C
+U+200D
+U+FEFF
+U+2060
+U+2061
+U+2062
+U+2063
+U+2064
+U+206A
+U+206B
+U+206C
+U+206E
+U+206F
+
+space with width:
+U+2000
+U+200A
+U+202F
+U+205F
+
+https://www.irongeek.com/homoglyph-attack-generator.php
+
+Char	Homoglyphs
+	ᅟ ᅠ                   　 ㅤ
+!	! ǃ ！
+"	" ״ ″ ＂
+$	$ ＄
+%	% ％
+&	& ＆
+'	' ＇
+(	( ﹝ （
+)	) ﹞ ）
+*	* ⁎ ＊
++	+ ＋
+,	, ‚ ，
+-	- ‐ －
+.	. ٠ ۔ ܁ ܂ ․ ‧ 。 ． ｡
+/	/ ̸ ⁄ ∕ ╱ ⫻ ⫽ ／ ﾉ
+0	0 O o Ο ο О о Օ Ｏ ｏ
+1	1 I ا １
+2	2 ２
+3	3 ３
+4	4 ４
+5	5 ５
+6	6 ６
+7	7 ７
+8	8 Ց ８
+9	9 ９
+	
+Char	Homoglyphs
+:	: ։ ܃ ܄ ∶ ꞉ ：
+;	; ; ；
+<	< ‹ ＜
+=	= ＝
+>	> › ＞
+?	? ？
+@	@ ＠
+[	[ ［
+\	\ ＼
+]	] ］
+^	^ ＾
+_	_ ＿
+`	` ｀
+a	A a À Á Â Ã Ä Å à á â ã ä å ɑ Α α а Ꭺ Ａ ａ
+b	B b ß ʙ Β β В Ь Ᏼ ᛒ Ｂ ｂ
+c	C c ϲ Ϲ С с Ꮯ Ⅽ ⅽ Ｃ ｃ
+d	D d Ď ď Đ đ ԁ ժ Ꭰ ḍ Ⅾ ⅾ Ｄ ｄ
+e	E e È É Ê Ë é ê ë Ē ē Ĕ ĕ Ė ė Ę Ě ě Ε Е е Ꭼ Ｅ ｅ
+f	F f Ϝ Ｆ ｆ
+g	G g ɡ ɢ Ԍ ն Ꮐ Ｇ ｇ
+h	H h ʜ Η Н һ Ꮋ Ｈ ｈ
+i	I i l ɩ Ι І і ا Ꭵ ᛁ Ⅰ ⅰ Ｉ ｉ
+j	J j ϳ Ј ј յ Ꭻ Ｊ ｊ
+k	K k Κ κ К Ꮶ ᛕ K Ｋ ｋ
+	
+Char	Homoglyphs
+l	L l ʟ ι ا Ꮮ Ⅼ ⅼ Ｌ ｌ
+m	M m Μ Ϻ М Ꮇ ᛖ Ⅿ ⅿ Ｍ ｍ
+n	N n ɴ Ν Ｎ ｎ
+0	0 O o Ο ο О о Օ Ｏ ｏ
+p	P p Ρ ρ Р р Ꮲ Ｐ ｐ
+q	Q q Ⴍ Ⴓ Ｑ ｑ
+r	R r ʀ Ի Ꮢ ᚱ Ｒ ｒ
+s	S s Ѕ ѕ Տ Ⴝ Ꮪ 𐐠 Ｓ ｓ
+t	T t Τ τ Т Ꭲ Ｔ ｔ
+u	U u μ υ Ա Ս ⋃ Ｕ ｕ
+v	V v ν Ѵ ѵ Ꮩ Ⅴ ⅴ Ｖ ｖ
+w	W w ѡ Ꮃ Ｗ ｗ
+x	X x Χ χ Х х Ⅹ ⅹ Ｘ ｘ
+y	Y y ʏ Υ γ у Ү Ｙ ｙ
+z	Z z Ζ Ꮓ Ｚ ｚ
+{	{ ｛
+|	| ǀ ا ｜
+}	} ｝
+~	~ ⁓ ～
+ß	ß ӧ
+ä	Ä Ӓ
+ö	Ö Ӧ
